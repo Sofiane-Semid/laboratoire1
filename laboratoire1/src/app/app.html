@@ -7,13 +7,36 @@
     background-color: aqua;
   }
 </style>
+  
+
 <div class="container">
   <div class="row mt-1">
     <div class="col-3 socialisme" id="couleurGauche">
-      Gauche
+      {{n}}
     </div>
     <div class="col-9 conservatisme" id="couleurDroite">
-      Droite
+      {{MyWisdom}}
     </div>
   </div>
+
+  <div class="row mt-1">
+    <div class="col-3 socialisme" id="couleurGauche">
+      {{equalToN(8)}}
+    </div>
+    <div class="col-9 conservatisme" id="couleurDroite">
+      {{Bruh()}}
+    </div>
+  </div>
+
+   <div class="row mt-1">
+    <div class="col-3 socialisme" id="couleurGauche">
+      {{myhate[1]}}, {{myhate[0]}}, {{myhate[2]}}
+    </div>
+    <div class="col-9 conservatisme" id="couleurDroite">
+      {{serviette.use()}}
+      <br><br>
+      <img src="/assets/images/{{serviette.image}}" alt="dddd">
+    </div>
+  </div>
+  
 </div>
